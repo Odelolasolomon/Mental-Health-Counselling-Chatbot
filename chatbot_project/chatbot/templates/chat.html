@@ -1,0 +1,5 @@
+<form id="chatForm" style="display: flex;">
+    <input type="text" id="userInput" placeholder="Type your message here..." aria-label="Type your message here" style="flex: 1; padding: 10px; border-radius: 20px; border: 1px solid #ccc; font-size: 16px; outline: none;">
+    <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    <button type="submit" style="padding: 10px 20px; margin-left: 10px; border: none; border-radius: 20px; background-color: #007bff; color: white; font-size: 16px; cursor: pointer;">Send</button>
+</form>
